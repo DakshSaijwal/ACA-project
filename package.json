@@ -1,0 +1,17 @@
+{
+  "name": "qr-attendance-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for QR-based attendance using IITK ID cards (JS-A2)",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test:qr": "node qr.js ./test.png",
+    "test:parser": "node parser.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "jimp": "^1.6.1",
+    "jsqr": "^1.4.0",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
